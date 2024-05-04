@@ -1,0 +1,10 @@
+torch
+torchvision
+pandas
+numpy
+albumentations
+tensorboard
+torchmetrics
+pycocotools
+timm
+scikit-learn

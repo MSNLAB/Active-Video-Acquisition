@@ -1,0 +1,18 @@
+[project]
+name = "active-video-acquisition"
+version = "0.1.0"
+description = "Reinforced active video acquisition (AVA) framework designed to select the most valuable video partitions for training."
+authors = [
+    {name = "Lei Zhang", email = "lei.zhang@njust.edu.cn"}
+]
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pip]
+extra-requirements-file = "requirements.txt"
+
+[tool.setuptools]
+packages = ["envs", "models", "utils", "videos"]
